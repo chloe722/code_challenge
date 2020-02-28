@@ -20,25 +20,3 @@ List<Contact> getContactList() {
       .map((contact) => Contact(name: contact, group: contact[0]))
       .toList();
 }
-
-//class ElementList<T> {
-//  final List<T> elements;
-//
-//  ElementList({this.elements});
-//
-//  List<T> getElementList() {
-//
-//    Map<T, String> elementMap = Map();
-//
-//    for (var element in elements) {
-//    }
-//  }
-//}
-//
-//
-//abstract class Element<T> {
-//  final T item;
-//
-//  Element({this.item});
-//
-//}
